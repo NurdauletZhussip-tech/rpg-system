@@ -1,4 +1,9 @@
 package com.narxoz.rpg.characters.factory;
 
-public class ArcherFactory {
-}
+import com.narxoz.rpg.characters.Archer;
+import com.narxoz.rpg.characters.GameCharacter;
+
+public class ArcherFactory extends CharacterFactory {
+        @Override
+        public GameCharacter createCharacter(String name) { return new Archer(name); } }
+

@@ -1,4 +1,8 @@
 package com.narxoz.rpg.equipments.concrete;
 
-public class PlateArmor {
+import com.narxoz.rpg.equipments.Armor;
+
+class PlateArmor implements Armor {
+    public String getArmorInfo() { return "Plate Armor"; }
+    public int getDefense() { return 30; }
 }

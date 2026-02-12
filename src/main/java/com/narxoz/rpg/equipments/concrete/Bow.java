@@ -1,4 +1,8 @@
 package com.narxoz.rpg.equipments.concrete;
 
-public class Bow {
+import com.narxoz.rpg.equipments.Weapon;
+
+class Bow implements Weapon {
+    public String getWeaponInfo() { return "Bow"; }
+    public int getDamage() { return 20; }
 }

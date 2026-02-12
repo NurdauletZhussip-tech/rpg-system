@@ -1,4 +1,6 @@
 package com.narxoz.rpg.equipments;
 
-public class Weapon {
+public interface Weapon {
+    String getWeaponInfo();
+    int getDamage();
 }

@@ -1,4 +1,8 @@
 package com.narxoz.rpg.equipments.concrete;
 
-public class LeatherArmor {
+import com.narxoz.rpg.equipments.Armor;
+
+class LeatherArmor implements Armor {
+    public String getArmorInfo() { return "Leather Armor"; }
+    public int getDefense() { return 10; }
 }

@@ -1,4 +1,6 @@
 package com.narxoz.rpg.equipments;
 
-public class Armor {
+public interface Armor {
+    String getArmorInfo();
+    int getDefense();
 }
