@@ -1,4 +1,6 @@
 package com.narxoz.rpg.characters;
 
-public class GameCharacter {
+public interface GameCharacter {
+    void getStats();
+    void useSpecialAbility();
 }
