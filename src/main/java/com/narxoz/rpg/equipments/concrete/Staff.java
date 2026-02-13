@@ -4,5 +4,6 @@ import com.narxoz.rpg.equipments.Weapon;
 
 public class Staff implements Weapon {
     public String getWeaponInfo() { return "Wizard Staff"; }
-    public int getDamage() { return 15; }
+    @Override
+    public void attack() { System.out.println("Attack 15"); }
 }
